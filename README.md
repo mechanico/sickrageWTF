@@ -57,10 +57,7 @@ Server: TornadoServer/4.5.1
 Etag: "e5c29fe99abcd01731bec1afec0e618195f1ae37"  
 Date: Fri, 02 Mar 2018 10:47:51 GMT  
 Content-Type: text/html; charset=UTF-8  
-```
 
-  
-```html
 <!DOCTYPE html>  
 <html lang="nl_NL">  
     <head>  
